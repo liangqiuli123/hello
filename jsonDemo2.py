@@ -5,7 +5,7 @@ import json
 
 apiURL='{url}?{question}'.format(
 url = 'https://api.ownthink.com/bot?spoken=',
-question = '姚明'
+question = '谭咏麟'
 )
 r = req.get(apiURL)
 obj = json.loads(r.text)
